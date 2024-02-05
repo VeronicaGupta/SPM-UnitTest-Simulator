@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/">
+        <file>qml/main.qml</file>
+        <file>qml/PLCLiveView.qml</file>
+        <file>qml/SerialPortSettings.qml</file>
+        <file>qml/plcliveview/MeterView.qml</file>
+        <file>qml/plcliveview/MetersStageView.qml</file>
+    </qresource>
+</RCC>

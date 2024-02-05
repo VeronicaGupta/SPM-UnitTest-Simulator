@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Widget</class>
+ <widget class="QWidget" name="Widget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Widget</string>
+  </property>
+  <widget class="QWidget" name="horizontalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>220</y>
+     <width>310</width>
+     <height>80</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <widget class="QPushButton" name="btnClearCalibration">
+      <property name="text">
+       <string>ClearCalibration</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="btnCalibrate">
+      <property name="text">
+       <string>Calibrate</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="btnAuthenticate">
+      <property name="text">
+       <string>Authenticate</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="horizontalLayoutWidget_2">
+   <property name="geometry">
+    <rect>
+     <x>290</x>
+     <y>370</y>
+     <width>472</width>
+     <height>80</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout_2">
+    <item>
+     <widget class="QPushButton" name="btnGetSerial">
+      <property name="text">
+       <string>Get Serial</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="btnOffOutput">
+      <property name="text">
+       <string>OffOutput</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="btnOnOutput">
+      <property name="text">
+       <string>OnOutput</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="btnCheckCurrent">
+      <property name="text">
+       <string>CheckCurrent</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="btnCheckVoltage">
+      <property name="text">
+       <string>CheckVoltage</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="gridLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>470</x>
+     <y>120</y>
+     <width>239</width>
+     <height>174</height>
+    </rect>
+   </property>
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="1" column="0">
+     <widget class="QLabel" name="label_4">
+      <property name="text">
+       <string>U</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="3">
+     <widget class="QLabel" name="label_3">
+      <property name="text">
+       <string>L3</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="2">
+     <widget class="QLineEdit" name="lineEdit_8"/>
+    </item>
+    <item row="0" column="2">
+     <widget class="QLabel" name="label_2">
+      <property name="text">
+       <string>L2</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="1">
+     <widget class="QLineEdit" name="lineEdit_3"/>
+    </item>
+    <item row="4" column="3">
+     <widget class="QLineEdit" name="lineEdit_12"/>
+    </item>
+    <item row="3" column="3">
+     <widget class="QLineEdit" name="lineEdit_11"/>
+    </item>
+    <item row="4" column="0">
+     <widget class="QLabel" name="label_7">
+      <property name="text">
+       <string>Q</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="2">
+     <widget class="QLineEdit" name="lineEdit_7"/>
+    </item>
+    <item row="2" column="1">
+     <widget class="QLineEdit" name="leL1Current">
+      <property name="text">
+       <string>10</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1">
+     <widget class="QLineEdit" name="leL1Voltage">
+      <property name="text">
+       <string>240</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="2">
+     <widget class="QLineEdit" name="leL2Voltage">
+      <property name="text">
+       <string>240</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="2">
+     <widget class="QLineEdit" name="leL2Current">
+      <property name="text">
+       <string>1</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QLabel" name="label">
+      <property name="text">
+       <string>L1</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="3">
+     <widget class="QLineEdit" name="leL3Voltage">
+      <property name="text">
+       <string>240</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="0">
+     <widget class="QLabel" name="label_5">
+      <property name="text">
+       <string>I</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="0">
+     <widget class="QLabel" name="label_6">
+      <property name="text">
+       <string>Q</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="1">
+     <widget class="QLineEdit" name="lineEdit_4"/>
+    </item>
+    <item row="2" column="3">
+     <widget class="QLineEdit" name="leL3Current">
+      <property name="text">
+       <string>60</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="2" colspan="2">
+     <widget class="QPushButton" name="btnApplyPower">
+      <property name="text">
+       <string>Apply</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="gridLayoutWidget_2">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>50</y>
+     <width>187</width>
+     <height>101</height>
+    </rect>
+   </property>
+   <layout class="QGridLayout" name="gridLayout_2">
+    <item row="0" column="2">
+     <widget class="QCheckBox" name="cbL3">
+      <property name="text">
+       <string>L3</string>
+      </property>
+      <property name="checked">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QCheckBox" name="cbL2">
+      <property name="text">
+       <string>L2</string>
+      </property>
+      <property name="checked">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="0">
+     <widget class="QCheckBox" name="cbL1">
+      <property name="text">
+       <string>L1</string>
+      </property>
+      <property name="checked">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0" colspan="2">
+     <widget class="QPushButton" name="btnApplyPowerState">
+      <property name="text">
+       <string>ApplyPower</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="horizontalLayoutWidget_3">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>480</y>
+     <width>349</width>
+     <height>80</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout_3">
+    <item>
+     <widget class="QPushButton" name="btnErrorTest1">
+      <property name="text">
+       <string>ErrorTest1</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="btnErrorTest2">
+      <property name="text">
+       <string>ErrorTest2</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="btnTest">
+      <property name="text">
+       <string>Test</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton_3">
+      <property name="text">
+       <string>PushButton</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QPushButton" name="btnDialer">
+   <property name="geometry">
+    <rect>
+     <x>560</x>
+     <y>510</y>
+     <width>89</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Dialer</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="horizontalLayoutWidget_4">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>370</y>
+     <width>197</width>
+     <height>80</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout_4">
+    <item>
+     <widget class="QPushButton" name="pushButton">
+      <property name="text">
+       <string>LaserEngrave</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton_2">
+      <property name="text">
+       <string>PushButton</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

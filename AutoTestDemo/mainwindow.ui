@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>957</width>
+    <height>763</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QGroupBox" name="groupBox_2">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>380</y>
+      <width>701</width>
+      <height>331</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>Auto Unit Tests </string>
+    </property>
+    <widget class="QGroupBox" name="groupBox_4">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>140</y>
+       <width>231</width>
+       <height>151</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>NicSync Test</string>
+     </property>
+     <layout class="QFormLayout" name="formLayout_3">
+      <item row="1" column="0">
+       <widget class="QLabel" name="label_4">
+        <property name="text">
+         <string>Serial</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="1">
+       <widget class="QLineEdit" name="nicsyncTestSerial">
+        <property name="text">
+         <string>A00000000</string>
+        </property>
+        <property name="placeholderText">
+         <string>A0000000</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="0">
+       <widget class="QLabel" name="label_6">
+        <property name="text">
+         <string>Customer</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="1">
+       <widget class="QComboBox" name="nicsyncTestCustomer">
+        <property name="editable">
+         <bool>false</bool>
+        </property>
+        <property name="currentText">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="0" colspan="2">
+       <widget class="QPushButton" name="nicsyncTestBtn">
+        <property name="text">
+         <string>Test</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <widget class="QLineEdit" name="nicsynctestCycle">
+        <property name="text">
+         <string>2</string>
+        </property>
+        <property name="placeholderText">
+         <string>0</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="0">
+       <widget class="QLabel" name="label_9">
+        <property name="text">
+         <string>Cycles</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+    <widget class="QGroupBox" name="groupBox_6">
+     <property name="geometry">
+      <rect>
+       <x>257</x>
+       <y>32</y>
+       <width>410</width>
+       <height>241</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>Power Stablisation Test</string>
+     </property>
+     <layout class="QFormLayout" name="formLayout_5">
+      <item row="1" column="0">
+       <widget class="QGroupBox" name="groupBox_7">
+        <property name="title">
+         <string>Voltage</string>
+        </property>
+        <layout class="QFormLayout" name="formLayout_6">
+         <item row="0" column="0">
+          <widget class="QLabel" name="label_7">
+           <property name="text">
+            <string>P1</string>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="1">
+          <widget class="QLineEdit" name="phase1Voltage">
+           <property name="text">
+            <string>240</string>
+           </property>
+           <property name="placeholderText">
+            <string>0</string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="0">
+          <widget class="QLabel" name="label_8">
+           <property name="text">
+            <string>P2</string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="1">
+          <widget class="QLineEdit" name="phase2Voltage">
+           <property name="text">
+            <string>240</string>
+           </property>
+           <property name="placeholderText">
+            <string>0</string>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="0">
+          <widget class="QLabel" name="label_10">
+           <property name="text">
+            <string>P3</string>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="1">
+          <widget class="QLineEdit" name="phase3Voltage">
+           <property name="text">
+            <string>240</string>
+           </property>
+           <property name="placeholderText">
+            <string>0</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item row="1" column="1">
+       <widget class="QGroupBox" name="groupBox_9">
+        <property name="title">
+         <string>Current</string>
+        </property>
+        <layout class="QFormLayout" name="formLayout_7">
+         <item row="0" column="0">
+          <widget class="QLabel" name="label_11">
+           <property name="text">
+            <string>P1</string>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="1">
+          <widget class="QLineEdit" name="phase1Current">
+           <property name="text">
+            <string>10</string>
+           </property>
+           <property name="placeholderText">
+            <string>0</string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="0">
+          <widget class="QLabel" name="label_12">
+           <property name="text">
+            <string>P2</string>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="0">
+          <widget class="QLabel" name="label_13">
+           <property name="text">
+            <string>P3</string>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="1">
+          <widget class="QLineEdit" name="phase3Current">
+           <property name="text">
+            <string>60</string>
+           </property>
+           <property name="placeholderText">
+            <string>0</string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="1">
+          <widget class="QLineEdit" name="phase2Current">
+           <property name="text">
+            <string>1</string>
+           </property>
+           <property name="placeholderText">
+            <string>0</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item row="2" column="0" colspan="2">
+       <widget class="QPushButton" name="powerStablisationTestBtn">
+        <property name="text">
+         <string>Test</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <widget class="QLineEdit" name="powerStablisationCycle">
+        <property name="text">
+         <string>2</string>
+        </property>
+        <property name="placeholderText">
+         <string>0</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="0">
+       <widget class="QLabel" name="label_15">
+        <property name="text">
+         <string>Cycles</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+    <widget class="QGroupBox" name="groupBox_3">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>30</y>
+       <width>221</width>
+       <height>100</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>Function Test</string>
+     </property>
+     <layout class="QFormLayout" name="formLayout_4">
+      <item row="0" column="1">
+       <widget class="QLineEdit" name="functiontestCycle">
+        <property name="text">
+         <string>2</string>
+        </property>
+        <property name="placeholderText">
+         <string>0</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="0" colspan="2">
+       <widget class="QPushButton" name="functionTestBtn">
+        <property name="text">
+         <string>Test</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="0">
+       <widget class="QLabel" name="label_3">
+        <property name="text">
+         <string>Cycles         </string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </widget>
+   <widget class="QTextEdit" name="DialogLog">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>30</y>
+      <width>921</width>
+      <height>321</height>
+     </rect>
+    </property>
+    <property name="verticalScrollBarPolicy">
+     <enum>Qt::ScrollBarAlwaysOn</enum>
+    </property>
+    <property name="sizeAdjustPolicy">
+     <enum>QAbstractScrollArea::AdjustToContents</enum>
+    </property>
+    <property name="textInteractionFlags">
+     <set>Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>
+    </property>
+   </widget>
+   <widget class="QGroupBox" name="groupBox">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>360</y>
+      <width>217</width>
+      <height>162</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>Ports</string>
+    </property>
+    <layout class="QFormLayout" name="formLayout">
+     <item row="0" column="0">
+      <widget class="QLabel" name="label">
+       <property name="text">
+        <string>Meter</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <widget class="QLabel" name="label_5">
+       <property name="text">
+        <string>Power Source</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="0">
+      <widget class="QLabel" name="label_14">
+       <property name="text">
+        <string>CMRI</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="1">
+      <widget class="QPushButton" name="refreshBtn">
+       <property name="text">
+        <string>Refresh</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QComboBox" name="serialPort"/>
+     </item>
+     <item row="1" column="1">
+      <widget class="QComboBox" name="psSerialPort"/>
+     </item>
+     <item row="2" column="1">
+      <widget class="QComboBox" name="cmriSerialPort"/>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>957</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuAutoTests">
+    <property name="title">
+     <string>AutoTests</string>
+    </property>
+   </widget>
+   <addaction name="menuAutoTests"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
